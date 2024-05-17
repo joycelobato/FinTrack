@@ -87,6 +87,7 @@
         android:layout_height="wrap_content"
         android:text="Wi-fi"
         android:textSize="18dp"
+
         android:textStyle="bold"
         tools:layout_editor_absoluteX="13dp"
         tools:layout_editor_absoluteY="218dp" />
