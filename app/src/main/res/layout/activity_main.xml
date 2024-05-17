@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="MainActivity">
 
 
     <TextView
@@ -42,7 +42,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="ALL"
-        app:layout_constraintEnd_toEndOf=""
+
+        LayoutConstraintTop_toBottomOf="@+id/textView2"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="123dp" />
 
@@ -52,11 +53,13 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="CAR"
+        LayoutConstraintTop_toBottomOf="@+id/textView2"
         tools:layout_editor_absoluteX="104dp"
         tools:layout_editor_absoluteY="123dp" />
 
     <Button
         android:id="@+id/button3"
+        LayoutConstraintTop_toBottomOf="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
@@ -70,7 +73,8 @@
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
         android:text="OTHER"
-        tools:layout_editor_absoluteX="302dp"
+        LayoutConstraintTop_toBottomOf="@+id/textView2"
+        tools:layout_editor_absoluteX="286dp"
         tools:layout_editor_absoluteY="123dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
